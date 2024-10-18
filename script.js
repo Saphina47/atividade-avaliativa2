@@ -1,18 +1,20 @@
 
 const images = [
-  './assets/1.png', 
-  './assets/2.png',
-  './assets/3.png', 
-  './assets/4.png', 
-  './assets/5.png',
-  './assets/6.png', 
-  './assets/7.png', 
-  './assets/8.png', 
+  './assets/1.jpeg', 
+  './assets/2.jpeg',
+  './assets/3.jpeg', 
+  './assets/4.jpeg', 
+  './assets/5.jpeg',
+  './assets/6.jpeg', 
+  './assets/7.jpeg', 
+  './assets/8.jpeg', 
 ];
 
 let cards = [];
 let flippedCards = [];
 let matchedPairs = 0;
+let timer ;
+let seconds = 0;
 
 function shuffleCards() {
   const list = images
